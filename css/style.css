@@ -1,0 +1,922 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: ;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+/***************************************
+	*** header-section  start ***
+***************************************/
+
+.header-section{
+	width: 100%;
+}
+.header-section .bg-light{
+    background: #2453a0 !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	font-size: 15px;
+	line-height: 26px;
+	color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link span{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.header-section .nav-link {
+	padding:0px !important;
+}
+
+.hvr-underline-from-left:before{
+	background-color:#2453a0 !important;
+}
+.nav-2 i{
+	height: 32px;
+    width: 32px;
+    line-height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+	margin-left: 10px;
+	text-align: center;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.nav-2 i:hover{
+    background-color: #fff;
+    color: #2453a0;
+  
+}
+
+/*************************************
+	*** header-section end ***
+*************************************/
+
+
+
+
+/***************************************
+	*** main-menu-section start ***
+***************************************/
+
+.main-menu-section{
+	width: 100%;
+	padding: 0px 0px;
+}
+.main-menu-section .bg-light{
+	background: #fff !important;
+	border-bottom: 1px solid #474747;
+}
+.main-menu-section .logo{
+	width: 120px;
+}
+.main-menu-section .navbar-nav, .request{
+	margin-top: -10px;
+}
+.main-menu-section .navbar-nav .nav-item{
+	padding: 10px 15px 0px 35px;
+}
+.main-menu-section .navbar-light .navbar-nav .nav-link{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #848684;
+}
+.main-menu-section .request{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #fff;
+	background-color: #ea501f;
+	border-radius: 7px;
+	transition: 1s;
+	margin-top: 0px;
+}
+.main-menu-section .request:hover{
+	background-color: #2453a0;
+}
+/*************************************
+	*** main-menu-section end ***
+*************************************/
+
+
+/*************************************
+	*** Silder Section Code Start ***
+*************************************/
+
+
+.slider-section{
+	width:100%;
+	border-top:1px solid #474747;
+}
+
+.slider-section .container-fluid{
+    padding:0px;
+}
+.carousel-caption{
+	text-align:left !important;
+}
+.carousel-item .cara1{
+	bottom:30%;
+	margin-left:-100px
+}
+ .carousel-item .cara1 h1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing:0px;
+    color:#fff;
+}
+
+.carousel-item .cara1 p{
+    font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #fff;
+}   
+.carousel-item .cara1 .btn-info{
+    padding:10px 20px;
+	color:#fff;
+	background: transparent;
+    font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	border: 2px solid #fff;
+	margin-right: 20px;
+	border-radius:2px;
+    transition: 1s
+}
+.carousel-item .cara1 .btn-info:hover{
+	transition: 1s;
+	border: 2px solid transparent;
+	background: #ffffff;
+	color:#000;
+}
+
+.carousel-item .cara5 .btn-info{
+	padding:10px 20px;
+    background:transparent;
+    color:#fff;
+    font-size: 18px;
+	font-weight: 400;
+    margin-top: 20px;
+    transition: 1s
+}
+ .carousel-extra .cara1 h1{
+    color:#000 !important;
+}
+
+.carousel-extra .cara1 p{
+	color: #474747;
+}   
+.carousel-extra .cara1 .btn-info{
+	color:#474747;
+	border: 2px solid #474747;
+}
+.carousel-extra .cara1 .btn-info:hover{
+	background: #474747;
+	color: #fff
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #08c;
+}
+
+.carousel-control-prev-icon{
+	margin-left:-80px;
+}
+.carousel-control-next-icon{
+	margin-left:80px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 20px;
+    height: 50px;
+    background-color: #474747 ;
+}
+.carousel-indicators li{
+	background-color: #000;
+}
+.carousel-indicators .active{
+	background-color: #fff ;
+}
+
+
+/*************************************
+	*** Silder Section Code eND ***
+*************************************/
+
+
+/*************************************
+	*** ask-section Code start ***
+*************************************/
+.ask-section{
+	width: 100%;
+	padding:80px 0px 80px 0px;
+	border-top: 4px solid #25a9e1;
+	background-color: #f5f5f5
+}
+
+.ask-section .ask{
+	text-align: center;
+}
+.ask-inner-extra{
+	width:100%;
+	height: 300px;
+	background-color:#25a9e1;
+	border-radius: 5px;
+	color: #fff;
+	border:2px solid transparent;
+	transition: 1s
+}
+.ask-inner-extra:hover{
+	background-color: transparent;
+	border:2px solid #25a9e1;
+	color: #25a9e1;
+}
+.ask-section .ask-inner{
+	position: absolute;
+	width: 97%;
+	display: inline;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.ask-section .ask-inner h2{
+	font-size: 21px;
+    font-weight: 700;
+}
+.ask-section .ask-inner p{
+    font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+.ask-section .ask-inner .ask-btn{
+    padding:10px 20px;
+	color:#25a9e1;
+    font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+	background-color: #f5f5f5;
+	border: none;
+	border-radius:5px;
+	transition: 1s;
+	border: 2px solid transparent;
+}
+.ask-inner-extra:hover .ask-btn{
+	color:#fff;
+	background-color:#25a9e1
+}
+
+.ask-section .ask-inner .ask-btn:hover{
+	background-color: transparent;
+	border: 2px solid #25a9e1;
+	color: #25a9e1
+}
+ 
+/*************************************
+	*** ask-section Code End ***
+*************************************/
+
+
+/**************************************
+    Beautiful Section Code Start
+***************************************/
+.WEB-section{
+	width:100%;
+	padding-bottom: 80px;
+    
+}
+
+.WEB-section .WEB-title {
+    text-align: center;
+}
+.WEB-section .WEB-title h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #25a9e1;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.WEB-section .WEB-title p {
+    font-weight: 400;
+	font-size: 16px;
+	line-height:20px;
+	color: #848684;
+	margin-bottom: 60px;
+}
+.WEB-section .media-inner{
+    text-align:center;
+}
+.WEB-section .media-inner i{
+	width: 90px;
+	height: 90px;
+	line-height:90px;
+	border-radius: 50%;
+	border: 1px solid #25a9e1;
+	color: #25a9e1;
+	font-size: 25px;
+	text-align: center;
+	transition: 1s
+}
+.WEB-section .media-inner i:hover{
+	border: 1px solid transparent;
+	color: #fff;
+	background-color: #25a9e1;
+}
+.WEB-section .media-inner .media-body h5{
+    color:#474747;
+    font-weight:600;
+	font-size:22px;
+	padding-top: 30px;
+}
+
+.WEB-section .media-inner .media-body p{
+    color:#848684;
+    font-weight:400;
+    font-size:15px;
+}
+
+.WEB-section .web-btn{
+	padding:10px 20px;
+    background:#25a9e1;
+	color:#fff;
+	border: none;
+    font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	margin-top: 20px;
+	border:2px solid #25a9e1;
+    transition: 1s
+}
+.WEB-section .web-btn:hover{
+	background-color: transparent;
+	border: 2px solid #25a9e1;
+	color: #25a9e1
+}
+.media-inner:hover i {
+	border: 1px solid transparent;
+	color: #fff;
+	background-color: #25a9e1;	
+}
+
+
+/**************************************
+    Beautiful Section Code End
+***************************************/
+
+
+/**************************************
+    latest-section Code Start
+***************************************/
+.latest-section{
+	width: 100%;
+	background-color:#f5f5f5;
+	padding-bottom: 80px;
+}
+
+
+.latest-section .latest-title h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #474747;
+	padding-top: 70px;
+	margin-bottom: 10px;
+}
+.latest-section .latest-title h2 span {
+	color: #25a9e1;
+}
+.latest-section .latest-title p {
+    font-weight: 400;
+	font-size: 16px;
+	line-height:20px;
+	color: #848684;
+	margin-bottom: 60px;
+}
+
+.latest-section .latest{
+	position:relative;
+	
+}
+.latest-section .latest .latest-img{
+	width: 100%;
+	height: 72%;
+	overflow: hidden;
+}
+
+.latest-section .hover-box {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 72%;
+	opacity: 0;
+    transition: 0.4s linear;
+}
+
+.latest-section .hover-box i{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius:50%;
+	background-color: #25a9e1;
+	color: #fff;
+	text-align: center;
+	font-size:20px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.latest:hover .hover-box{
+	opacity: 1;
+	scale: 1;
+  }
+.latest:hover .latest-img img{
+	transform:scale(1.2);
+	transition: 2s;
+  }
+.latest:hover .card-body{
+	background:#25a9e1;
+	color:#fff
+  }
+
+  .latest-section .latest-btn{
+	padding:10px 20px;
+    background:#25a9e1;
+	color:#fff;
+	border: none;
+    font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	margin-top: 30px;
+	border:2px solid #25a9e1;
+	transition: 1s;
+}
+.latest-section .latest-btn:hover{
+	background-color: transparent;
+	border: 2px solid #25a9e1;
+	color: #25a9e1
+}
+.latest-btn-main{
+	margin: 0 auto;
+}
+/**************************************
+    latest-section Code End
+***************************************/
+
+
+/**************************************
+    pricing-section Code Start
+***************************************/
+.pricing-section{
+	width: 100%;
+	text-align: center;
+	border-bottom:1px solid #474747;
+	padding-bottom: 80px;
+}
+.pricing-section h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #25a9e1;
+	margin: 70px auto 20px auto;
+}
+
+.pricing-section .pricing-btn{
+	padding:20px 20px;
+    background:#25a9e1;
+	color:#fff;
+	border: none;
+    font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	margin-top: 20px;
+	border:1px solid #25a9e1;
+	transition: 1s;
+	margin-left: 10px;
+}
+.pricing-section .pricing-btn:hover{
+	background-color: transparent;
+	border: 1px solid #25a9e1;
+	color: #25a9e1
+}
+
+.pricing-section .pricing-inner{
+	margin-top: 70px;
+}
+
+.pricing-section .card-header{
+	background-color:#20bbda;
+	color: #fff
+}
+.pricing-section .border-success{
+	border-top:none !important;
+	border-color: #e4e6e6!important;
+}
+.pricing-section .card-body{
+	padding: 0px !important;
+}
+.pricing-section .title{
+	background-color: #53cfe9;
+	width: 100%;
+	height: 100px;
+}
+.pricing-section .title h5{
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: -1px;
+	padding-top: 10%;
+}
+.pricing-section .pricing-paragraph{
+	border-bottom: 1px solid #e4e6e6;
+}
+.pricing-section p{
+	margin-bottom:0px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height:20px;
+	color: #848684;
+	padding:10px 10px
+}
+
+.pricing-section .pricing-last-btn{
+	padding:10px 20px;
+    background:#25a9e1;
+	color:#fff;
+	border: none;
+    font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	transition: 1s;
+}
+.pricing-section .pricing-last-btn:hover{
+	background-color: #ea501f;
+	color: #fff
+}
+/**************************************
+    pricing-section Code End
+***************************************/
+
+
+/**************************************
+    Beautiful Section Code Start
+***************************************/
+.Speciality-section{
+	width:100%;
+	padding-bottom: 70px;
+}
+
+.Speciality-section .Speciality-title {
+    text-align: center;
+}
+.Speciality-section .Speciality-title h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #25a9e1;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+.Speciality-section .Speciality-title p {
+    font-weight: 400;
+	font-size: 16px;
+	line-height:20px;
+	color: #848684;
+	margin-bottom: 60px;
+}
+
+.Speciality-section .media i{
+	color: #474747;
+	font-size: 35px;
+	transition: 1s;
+	margin-right: 20px;
+}
+.Speciality-section i:hover{
+	color: #25a9e1;
+}
+
+.Speciality-section .media-body h5{
+    color:#838383;
+    font-weight:600;
+	font-size:22px;
+}
+.Speciality-section .media-body h5:hover{
+    color:#25a9e1
+}
+.Speciality-section .media-body p{
+    color:#848684;
+    font-weight:400;
+	font-size:15px;
+	line-height: 19px;
+}
+
+.Speciality-section .Speciality-btn{
+	padding:10px 20px;
+    background:#25a9e1;
+	color:#fff;
+	border: none;
+    font-size: 18px;
+	font-weight: 400;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	border:2px solid #25a9e1;
+	transition: 1s;
+}
+.Speciality-section .Speciality-btn:hover{
+	background-color: transparent;
+	border: 2px solid #25a9e1;
+	color: #25a9e1
+}
+.Speciality-section .Speciality-main-btn{
+	text-align: center;
+}
+/**************************************
+    Beautiful Section Code End
+***************************************/
+
+
+/**************************************
+    Process Section Code Start
+***************************************/
+.Process-section{
+	width:100%;
+	background-color: #f5f5f5;
+	padding-bottom: 70px;
+}
+
+.Process-section .Process-title{
+    text-align: center;
+}
+.Process-section .Process-title h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #25a9e1;
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+.Process-section h3 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #838383;
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+.Process-section .Speciality-title p {
+    font-weight: 400;
+	font-size: 16px;
+	line-height:20px;
+	color: #848684;
+	margin-bottom: 60px;
+}
+
+
+.box{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius:50%;
+	border-left: 4px solid #25a9e1;
+	border-right: 1px solid #25a9e1;
+	transition:1s;
+	margin-right: 15px;
+	margin-top:5px
+}
+.box:hover{
+	border-left: 4px solid transparent;
+	border-right: 1px solid transparent;
+	background-color:#25a9e1
+}
+
+.Process-section .media-body h5{
+    color:#838383;
+    font-weight:600;
+	font-size:22px;
+}
+.Process-section .media-body h5:hover{
+    color:#25a9e1
+}
+.Process-section .media-body p{
+    color:#848684;
+    font-weight:400;
+	font-size:15px;
+	line-height: 19px;
+}
+
+
+/**************************************
+    Process Section Code End
+***************************************/
+
+/* =============================================
+			 Start number-section                
+================================================= */
+.number-section{
+    width: 100%;
+    background: #767577;
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.number-section .number-inner .counter-wrapper{
+    font-size: 30px;
+    font-weight: 700;
+	color: #fff;
+	margin-top: 50px;
+}
+.number-section .number-inner h4{
+    font-size: 25px;
+    font-weight: 400;
+	color: #fff;
+	margin-top: -10px;
+	margin-top: 50px;
+}
+
+.number-section .number-inner i{
+	width: 90px;
+	height: 90px;
+	line-height:90px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	transition: 1s
+}
+.number-section .number-inner i:hover{
+	border: 1px solid transparent;
+	color: #fff;
+	background-color: #25a9e1;
+}
+/* =============================================
+			 End number-section                
+================================================= */
+
+
+
+/* =============================================
+			 start happy-section                
+================================================= */
+
+.happy-section{
+	width: 100%;
+	padding:70px 0px
+}
+
+.happy-section .happy-title h2 {
+    font-weight: 500;
+    font-size: 25px;
+	color: #474747;
+	margin-bottom: 10px;
+}
+.happy-section .happy-title h2 span {
+	color: #25a9e1;
+}
+.happy-section .happy-title p {
+    font-weight: 400;
+	font-size: 16px;
+	line-height:20px;
+	color: #848684;
+	margin-bottom: 60px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	background: transparent !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	right:20px;
+	top: -50px;
+	background-color: #b2b2b2
+}
+.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	right:0px;
+	top: -50px;
+} 
+.owl-carousel button.owl-next, .owl-carousel button.owl-prev{
+	background: #b2b2b2 !important;
+	width: 10px;
+}
+/* =============================================
+			 End happy-section            
+================================================= */
+
+
+
+/* =============================================
+			 start footer-section            
+================================================= */
+
+.footer-section {
+	width: 100%;
+	background-color: #333333
+}
+.footer-section h3{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size:25px;
+	font-weight:400
+}
+.footer-section  .frist img{
+	margin-top:60px;
+}
+.footer-section  .frist p{
+	color: #fff;
+	line-height:20px;
+	margin-top: 20px;
+}
+.footer-section  .second p{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding:2px 0px 15px 0px
+}
+.footer-section  .third i{
+	color: #fff;
+	margin-top: 5px;
+}
+.footer-section  .third h5{
+	color: #fff;
+	font-size:14px;
+	font-weight:400;
+	line-height:20px;
+	margin-left: 20px;
+}
+.social-icon {
+	margin-top:30px
+}
+.social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+	background-color: #2453a0;
+	border-radius:5px;
+    color: #fff;
+    font-size: 20px;
+	margin-right: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.social-icon i:hover{
+	background-color: #00bec9;
+	color: #fff;
+}
+.footer{
+	margin-top:40px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding:20px 0px 5px 0px
+}
+/* =============================================
+			 End footer-section            
+================================================= */
+
+/* .is-sticky .header-menu{
+	background: #F6F6F6 !important;
+	padding: 0px 0px;
+	transition: 1s;
+	width: 100%;
+	border-bottom: 3px solid #511DE5;
+} */
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #2453a0; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px 12px; 
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #00bec9; 
+}
